@@ -1,7 +1,7 @@
 # EventDispatcher
 
-Android has many events. And some of them require boilerplate code, conditional statement by id, type or code...
-EventDispatcher generate such boilerplate code instead of you.
+Android has many events. And some of them require boilerplate code, conditional statement by id, type or code...  
+EventDispatcher generate such boilerplate code instead of you.  
 
 **100% reflection-free.**
 
@@ -44,12 +44,12 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-You write handler methods annotated with `@OnActivityResult`.
-`@OnActivityResult` has 2 arguments, requestCode and resultCode.
-Your handler can have 3 arguments, `(int requestCode, int resultCode, Intent data)` or its sublist.
-If your handler has 1 `int` argument , it's a `resultCode`, not a `requestCode`.
-Finally, you must call the `XXXEventDispatcher#onActivityResult()` (generated method)  in your `OnActivityResult`.
-`XXX` is your class name.
+You write handler methods annotated with `@OnActivityResult`.  
+`@OnActivityResult` has 2 arguments, requestCode and resultCode.  
+Your handler can have 3 arguments, `(int requestCode, int resultCode, Intent data)` or its sublist.  
+If your handler has 1 `int` argument , it's a `resultCode`, not a `requestCode`.  
+Finally, you must call the `XXXEventDispatcher#onActivityResult()` (generated method)  in your `OnActivityResult`.  
+`XXX` is your class name.  
 
 ### `OnOptionsItemSelected`
 
