@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 You write handler methods annotated with `@OnActivityResult`.  
-`@OnActivityResult` has 2 arguments, requestCode and resultCode.  
+`@OnActivityResult` has 2 arguments, `requestCode` and `resultCode`.  
 Your handler can have 3 arguments, `(int requestCode, int resultCode, Intent data)` or its sublist.  
 If your handler has 1 `int` argument , it's a `resultCode`, not a `requestCode`.  
 Finally, you must call the `XXXEventDispatcher#onActivityResult()` (generated method)  in your `OnActivityResult`.  
