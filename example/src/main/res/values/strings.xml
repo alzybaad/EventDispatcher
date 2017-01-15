@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EventDispatcher</string>
+
+    <string name="cancelled">cancelled</string>
+    <string name="image_color">image color</string>
+    <string name="background_color">background color</string>
+</resources>
