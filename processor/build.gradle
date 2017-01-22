@@ -17,4 +17,7 @@ sourceSets {
 dependencies {
     compile 'com.squareup:javapoet:1.7.0'
     compile 'com.google.auto.service:auto-service:1.0-rc2'
+    testCompile 'junit:junit:4.12'
+    testCompile 'com.google.testing.compile:compile-testing:0.8'
+    testCompile 'com.google.android:android:1.5_r4'
 }
