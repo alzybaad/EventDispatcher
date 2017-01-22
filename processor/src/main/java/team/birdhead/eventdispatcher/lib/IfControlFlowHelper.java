@@ -12,6 +12,10 @@ public class IfControlFlowHelper {
     }
 
     public void addControlFlow(String controlFlow, Object... args) {
+        if (StringUtils.isEmpty(controlFlow)) {
+            return;
+        }
+
         if (!inControlFlow) {
             builder.beginControlFlow("if (" + controlFlow + ")", args);
             inControlFlow = true;

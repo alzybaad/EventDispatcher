@@ -43,7 +43,7 @@ public class Validator {
 
     private void validateReturnType(ExecutableElement element) {
         if (!types.isSameType(element.getReturnType(), returnType)) {
-            throw new InvalidReturnTypeException(element, types.getNoType(TypeKind.VOID));
+            throw new InvalidReturnTypeException(element, returnType);
         }
     }
 
