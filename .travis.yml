@@ -11,4 +11,4 @@ android:
     - extra-google-m2repository
 
 jdk:
-  - oraclejdk8
+  - openjdk8

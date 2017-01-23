@@ -1,3 +1,5 @@
+import org.gradle.internal.jvm.Jvm
+
 apply plugin: 'java'
 
 targetCompatibility = JavaVersion.VERSION_1_8
@@ -20,4 +22,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     testCompile 'com.google.testing.compile:compile-testing:0.8'
     testCompile 'com.google.android:android:1.5_r4'
+    testCompile files(Jvm.current().getToolsJar())
 }
