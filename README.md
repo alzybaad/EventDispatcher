@@ -86,8 +86,8 @@ repositories {
 }
 
 dependencies {
-    compile 'team.birdhead.eventdispatcher:eventdispatcher:1.0.0'
-    apt 'team.birdhead.eventdispatcher:eventdispatcher-processor:1.0.0'
+    compile 'team.birdhead.eventdispatcher:eventdispatcher:1.0.1'
+    apt 'team.birdhead.eventdispatcher:eventdispatcher-processor:1.0.1'
 }
 ```
 
