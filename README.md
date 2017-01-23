@@ -1,5 +1,7 @@
 # EventDispatcher
 
+[![Build Status](https://travis-ci.org/alzybaad/EventDispatcher.svg?branch=master)](https://travis-ci.org/alzybaad/EventDispatcher)
+
 Android has many events. And some of them require boilerplate code, conditional statement by id, type or code...  
 EventDispatcher generate such boilerplate code instead of you.  
 
